@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3D5C6B5F50CC81A0836B33CE /* Pods_XFNavigationBarDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CE61E80F87136DBD86EE6C9 /* Pods_XFNavigationBarDemoTests.framework */; };
+		4C0F501E1EDFF4C40044B00C /* UINavigationBar+XFNavigationbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0F501B1EDFF4C40044B00C /* UINavigationBar+XFNavigationbar.m */; };
+		4C0F501F1EDFF4C40044B00C /* XFNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0F501D1EDFF4C40044B00C /* XFNavigationBar.m */; };
 		4C339D061ECC922500DB5509 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C339D051ECC922500DB5509 /* main.m */; };
 		4C339D091ECC922500DB5509 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C339D081ECC922500DB5509 /* AppDelegate.m */; };
 		4C339D0C1ECC922500DB5509 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C339D0B1ECC922500DB5509 /* ViewController.m */; };
@@ -16,10 +18,8 @@
 		4C339D141ECC922500DB5509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C339D121ECC922500DB5509 /* LaunchScreen.storyboard */; };
 		4C339D1F1ECC922500DB5509 /* XFNavigationBarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C339D1E1ECC922500DB5509 /* XFNavigationBarDemoTests.m */; };
 		4C339D2A1ECC922500DB5509 /* XFNavigationBarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C339D291ECC922500DB5509 /* XFNavigationBarDemoUITests.m */; };
-		4C339D391ECC923A00DB5509 /* XFNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C339D381ECC923A00DB5509 /* XFNavigationBar.m */; };
 		4C339D3B1ECC94B500DB5509 /* headerImg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C339D3A1ECC94B500DB5509 /* headerImg.jpg */; };
 		4C339D3D1ECC94DA00DB5509 /* headerBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C339D3C1ECC94DA00DB5509 /* headerBg.png */; };
-		4C339D4E1ECF206300DB5509 /* UINavigationBar+XFNavigationbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C339D4D1ECF206300DB5509 /* UINavigationBar+XFNavigationbar.m */; };
 		B81A7ED917F7A2CB060DE104 /* Pods_XFNavigationBarDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCCA2C26C607DD35AEF6DE27 /* Pods_XFNavigationBarDemoUITests.framework */; };
 		D520DFCF6128EB46274226C3 /* Pods_XFNavigationBarDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A85A75885E723B4AB7E5DDC /* Pods_XFNavigationBarDemo.framework */; };
 /* End PBXBuildFile section */
@@ -45,6 +45,10 @@
 		25CFD32996E7670DEEFD49BD /* Pods-XFNavigationBarDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XFNavigationBarDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XFNavigationBarDemoUITests/Pods-XFNavigationBarDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2A85A75885E723B4AB7E5DDC /* Pods_XFNavigationBarDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XFNavigationBarDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4337F4032180973A159F0092 /* Pods-XFNavigationBarDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XFNavigationBarDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XFNavigationBarDemo/Pods-XFNavigationBarDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4C0F501A1EDFF4C40044B00C /* UINavigationBar+XFNavigationbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+XFNavigationbar.h"; sourceTree = "<group>"; };
+		4C0F501B1EDFF4C40044B00C /* UINavigationBar+XFNavigationbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+XFNavigationbar.m"; sourceTree = "<group>"; };
+		4C0F501C1EDFF4C40044B00C /* XFNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFNavigationBar.h; sourceTree = "<group>"; };
+		4C0F501D1EDFF4C40044B00C /* XFNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFNavigationBar.m; sourceTree = "<group>"; };
 		4C339D011ECC922500DB5509 /* XFNavigationBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XFNavigationBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C339D051ECC922500DB5509 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4C339D071ECC922500DB5509 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,12 +65,8 @@
 		4C339D251ECC922500DB5509 /* XFNavigationBarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XFNavigationBarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C339D291ECC922500DB5509 /* XFNavigationBarDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFNavigationBarDemoUITests.m; sourceTree = "<group>"; };
 		4C339D2B1ECC922500DB5509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4C339D371ECC923A00DB5509 /* XFNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XFNavigationBar.h; path = ../XFNavigationBar.h; sourceTree = "<group>"; };
-		4C339D381ECC923A00DB5509 /* XFNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XFNavigationBar.m; path = ../XFNavigationBar.m; sourceTree = "<group>"; };
 		4C339D3A1ECC94B500DB5509 /* headerImg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = headerImg.jpg; sourceTree = "<group>"; };
 		4C339D3C1ECC94DA00DB5509 /* headerBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headerBg.png; sourceTree = "<group>"; };
-		4C339D4C1ECF206300DB5509 /* UINavigationBar+XFNavigationbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+XFNavigationbar.h"; path = "../UINavigationBar+XFNavigationbar.h"; sourceTree = "<group>"; };
-		4C339D4D1ECF206300DB5509 /* UINavigationBar+XFNavigationbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+XFNavigationbar.m"; path = "../UINavigationBar+XFNavigationbar.m"; sourceTree = "<group>"; };
 		52966524AE5A8678F79FEE35 /* Pods-XFNavigationBarDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XFNavigationBarDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XFNavigationBarDemoTests/Pods-XFNavigationBarDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7CE61E80F87136DBD86EE6C9 /* Pods_XFNavigationBarDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XFNavigationBarDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB479B79CED82819A649F52C /* Pods-XFNavigationBarDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XFNavigationBarDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XFNavigationBarDemoUITests/Pods-XFNavigationBarDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -129,10 +129,10 @@
 		4C0F50191EDFF1440044B00C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4C339D371ECC923A00DB5509 /* XFNavigationBar.h */,
-				4C339D381ECC923A00DB5509 /* XFNavigationBar.m */,
-				4C339D4C1ECF206300DB5509 /* UINavigationBar+XFNavigationbar.h */,
-				4C339D4D1ECF206300DB5509 /* UINavigationBar+XFNavigationbar.m */,
+				4C0F501A1EDFF4C40044B00C /* UINavigationBar+XFNavigationbar.h */,
+				4C0F501B1EDFF4C40044B00C /* UINavigationBar+XFNavigationbar.m */,
+				4C0F501C1EDFF4C40044B00C /* XFNavigationBar.h */,
+				4C0F501D1EDFF4C40044B00C /* XFNavigationBar.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -487,10 +487,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C339D0C1ECC922500DB5509 /* ViewController.m in Sources */,
-				4C339D4E1ECF206300DB5509 /* UINavigationBar+XFNavigationbar.m in Sources */,
 				4C339D091ECC922500DB5509 /* AppDelegate.m in Sources */,
 				4C339D061ECC922500DB5509 /* main.m in Sources */,
-				4C339D391ECC923A00DB5509 /* XFNavigationBar.m in Sources */,
+				4C0F501F1EDFF4C40044B00C /* XFNavigationBar.m in Sources */,
+				4C0F501E1EDFF4C40044B00C /* UINavigationBar+XFNavigationbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
